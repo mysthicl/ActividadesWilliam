@@ -1,0 +1,91 @@
+body{
+  background-color: #cb4154;
+}
+
+form{
+    background: transparent;
+}
+.centrado {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border-radius:5px;
+    background-color: #f0f0f0; 
+    border: none; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+   
+  
+  }
+
+  .div1{
+    background-color: #47d6c7;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    padding: 5%;
+  
+  }
+
+  .div2{
+    background-color: #2f2d52;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5%;
+    
+  }
+
+  .izquierda{
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    color: white;
+  }
+
+  .derecha{
+    color: #888686;
+    
+
+  }
+
+  img{
+    width: 90%;
+  }
+
+  .derecha label{
+    font-size: 20px;
+    
+    
+  }
+
+  .derecha button{
+    border-radius: 20px;
+    background-color: #47d6c7;
+  }
+  
+
+
+
+  .linea {
+    position: relative;
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+    margin-bottom: 20px; /* Espaciado inferior opcional */
+  }
+  
+  .linea input {
+    border: none; /* Elimina los bordes del input */
+    border-bottom: 1px solid #63f3f1; /* Agrega una línea inferior */
+    width: 100%;
+    padding: 5px; /* Añade espacio entre el texto y la línea */
+    outline: none; /* Elimina el borde de enfoque al hacer clic */
+    background-color: transparent;
+  }
+  
+  /* Estilos adicionales al enfocar el input (opcional) */
+  .linea input:focus {
+    border-bottom: 2px solid #000; /* Cambia el grosor de la línea al enfocar */
+  }
+  
+ 
